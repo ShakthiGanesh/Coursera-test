@@ -1,13 +1,18 @@
 * {
 	box-sizing: border-box;
 }
+
+.header {
+	text-align: center;
+}
 .row {
 	width: 100%;
 }
 
 .one {
-	border: 1px grey solid;
+	border: 1px black solid;
 	margin: 5px;
+	background-color: grey;
 }
 .two {
 	float: left;
@@ -19,16 +24,29 @@
 	margin-bottom: 10px;
 }
 
-.chicken {
+.chicken1,.chicken2,.chicken3 {
 	text-align: center;
 	padding: 5px;
 	margin: 0px 0px 0px auto;
-	border-bottom: 1px solid grey;
-	border-left: 1px solid grey;
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
 	max-width: 80px;
 	display: block;
+	
 }
 
+.chicken1 {
+	background-color: orange;
+}
+
+.chicken2 {
+	background-color: green;
+	color: white;
+}
+
+.chicken3 {
+	background-color: pink;
+}
 .chic-content {
 	padding: 0px 7px 0px 10px;
 }
