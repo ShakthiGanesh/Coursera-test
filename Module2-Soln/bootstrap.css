@@ -1,0 +1,54 @@
+* {
+	box-sizing: border-box;
+}
+.row {
+	width: 100%;
+}
+
+.one {
+	border: 1px grey solid;
+	margin: 5px;
+}
+.two {
+	float: left;
+	margin-bottom: 10px;
+}
+
+.three {
+	float: left;
+	margin-bottom: 10px;
+}
+
+.chicken {
+	text-align: center;
+	padding: 5px;
+	margin: 0px 0px 0px auto;
+	border-bottom: 1px solid grey;
+	border-left: 1px solid grey;
+	max-width: 80px;
+	display: block;
+}
+
+.chic-content {
+	padding: 0px 7px 0px 10px;
+}
+
+@media (min-width: 992px) {
+	.two,.three {
+		width: 33.33%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.two {
+		width: 50%;
+	}
+	.three {
+		width: 100%;
+	}
+
+@media (max-width: 767px) {
+	.two, .three {
+		width: 100%;
+	}
+}
